@@ -36,19 +36,19 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-3 mb-2 mb-lg-0" style="width: calc(100% - 50px);">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/demo">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">Homee</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Categorías</a>
+                <a class="nav-link" href="/categoria/mujer">Categorías</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" href="/destacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="/nosotros">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="/contacto">Contacto</a>
                 </li>
                 <li class="nav-item order-md-last"> <!-- Utilizamos la clase order-md-last para mover este elemento al final en pantallas medianas y grandes -->
                 <a class="nav-link d-lg-none" href="{{ route('login') }}"" tabindex="-1" aria-disabled="true">Entrar <i class="fas fa-sign-in-alt"></i></a>

@@ -18,10 +18,11 @@ Route::get('/', function () {
 });
 Route::get('/', function () { return view('demo'); });
 Route::get('/item/zapatilla-blanca-adidas-mujer', function () { return view('item'); });
-Route::get('/categoria/mujer', function () { return view('item'); });
-// Route::get('/demo/destacados', function () { return view('item'); });
-// Route::get('/demo/carrito', function () { return view('item'); });
-// Route::get('/demo/contacto', function () { return view('item'); });
+Route::get('/categoria/mujer', function () { return view('category'); });
+Route::get('/demo/destacados', function () { return view('featured'); });
+Route::get('/demo/carrito', function () { return view('cart'); });
+Route::get('/demo/contacto', function () { return view('contact'); });
+Route::get('/demo/nosotros', function () { return view('about'); });
 
 
 

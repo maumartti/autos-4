@@ -1,10 +1,6 @@
-@extends('layouts.shop')
-
-
+@extends('layouts.web')
 @section('content')
 <div class="container mt-2">
-
-
   <!-- Features Section -->
   <section id="features" class="py-0">
     <!-- Modal -->
@@ -87,13 +83,10 @@
                   <div class="text-200 medium">Niños</div>
                 </div>
                 <div class="badge-secondary gray large">
-                  <div class="text-200 medium">Ropa de verano</div>
+                  <div class="text-200 medium">Verano</div>
                 </div>
                 <div class="badge-secondary gray large">
                   <div class="text-200 medium">Medias</div>
-                </div>
-                <div class="badge-secondary gray large">
-                  <div class="text-200 medium">De Playa</div>
                 </div>
               </div>
             </div>
@@ -104,7 +97,6 @@
 
     </div>
   </section>
-
 </div>
 @endsection
 

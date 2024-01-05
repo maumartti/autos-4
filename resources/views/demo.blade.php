@@ -46,13 +46,10 @@
                         <div class="text-200 medium">Niños</div>
                       </div>
                       <div class="badge-secondary gray large">
-                        <div class="text-200 medium">Ropa de verano</div>
+                        <div class="text-200 medium">Verano</div>
                       </div>
                       <div class="badge-secondary gray large">
                         <div class="text-200 medium">Medias</div>
-                      </div>
-                      <div class="badge-secondary gray large">
-                        <div class="text-200 medium">De Playa</div>
                       </div>
                       <!-- Agrega más categorías según sea necesario -->
                   </div>
