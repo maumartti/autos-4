@@ -6,10 +6,10 @@
       <div class="container">
           <div class="profile-card">
               <div class="profile-info d-flex flex-column flex-sm-row text-center text-md-start align-items-start align-items-sm-center">
-                  <img class="profile-image me-3" src="./images/ss.png" alt="Profile Image">
+                  <img class="profile-image me-3" src="/images/logo.png" alt="Profile Image">
                   <div class="profile-text">
-                      <h2 class="text-f24 mb-2">Shoes Tienda</h2>
-                      <p class="text-f18 opacity-80 mb-0">Calzado para Hombres, damas y niños</p>
+                      <h2 class="text-f24 mb-2">Candle Store</h2>
+                      <p class="text-f18 opacity-80 mb-0">Velas decorativas para el hogar</p>
                   </div>
               </div>
               <!-- <div class="cont-btn-info">
@@ -64,7 +64,7 @@
               <div class="col-6 col-sm-6 col-lg-3 mb-3 pe-2" data-bs-toggle="modal" href="#exampleModalToggle">
                 <div class="module p-4 pb-2">
                   <div class="cont-img-prod">
-                    <img src="./images/p1.png" class="img-prod w-100" style="border-radius: 20px;">
+                    <img src="./images/v1-1.jpg" class="img-prod w-100" style="border-radius: 20px;">
                   </div>
                   <h4 class="display-5 mt-2">Women's Superstar Cloud White and Core Black with tree sizes</h4>
                   <h4 class="display-4 mt-1">$U 4.200</h4>
@@ -73,7 +73,7 @@
               <div class="col-6 col-sm-6 col-lg-3 mb-3 pe-2 ps-2">
                 <div class="module p-4 pb-2">
                   <div class="cont-img-prod">
-                    <img src="./images/p4.png" class="img-prod w-100" style="border-radius: 20px;">
+                    <img src="./images/v1-2.jpg" class="img-prod w-100" style="border-radius: 20px;">
                   </div>
                   <h4 class="display-5 mt-2">Women's Superstar Cloud White and two colors</h4>
                   <h4 class="display-4 mt-1">$U 4.200</h4>
@@ -82,7 +82,7 @@
               <div class="col-6 col-sm-6 col-lg-3 mb-3 pe-2 ps-2">
                 <div class="module p-4 pb-2">
                   <div class="cont-img-prod">
-                    <img src="./images/p5.png" class="img-prod w-100" style="border-radius: 20px;">
+                    <img src="./images/v1-3.jpg" class="img-prod w-100" style="border-radius: 20px;">
                   </div>
                   <h4 class="display-5 mt-2">Women's Superstar Cloud White and Core Black Shoes</h4>
                   <h4 class="display-4 mt-1">$U 4.200</h4>
@@ -91,7 +91,7 @@
               <div class="col-6 col-sm-6 col-lg-3 mb-3 ps-2">
                 <div class="module p-4 pb-2">
                   <div class="cont-img-prod">
-                    <img src="./images/p6.png" class="img-prod w-100" style="border-radius: 20px;">
+                    <img src="./images/v1-1.jpg" class="img-prod w-100" style="border-radius: 20px;">
                   </div>
                   <h4 class="display-5 mt-2">Women's Superstar </h4>
                   <h4 class="display-4 mt-1">$U 4.200</h4>
@@ -101,7 +101,7 @@
               <div class="col-6 col-sm-6 col-lg-3 mb-3 pe-2">
                 <div class="module p-4 pb-2">
                   <div class="cont-img-prod">
-                    <img src="./images/p4.png" class="img-prod w-100" style="border-radius: 20px;">
+                    <img src="./images/v1-3.jpg" class="img-prod w-100" style="border-radius: 20px;">
                   </div>
                   <h4 class="display-5 mt-2">Women's Superstar </h4>
                   <h4 class="display-4 mt-1">$U 4.200</h4>
@@ -110,7 +110,7 @@
               <div class="col-6 col-sm-6 col-lg-3 mb-3 pe-2 ps-2">
                 <div class="module p-4 pb-2">
                   <div class="cont-img-prod">
-                    <img src="./images/p6.png" class="img-prod w-100" style="border-radius: 20px;">
+                    <img src="./images/v1-2.jpg" class="img-prod w-100" style="border-radius: 20px;">
                   </div>
                   <h4 class="display-5 mt-2">Women's Superstar </h4>
                   <h4 class="display-4 mt-1">$U 4.200</h4>
@@ -119,7 +119,7 @@
               <div class="col-6 col-sm-6 col-lg-3 mb-3 pe-2 ps-2">
                 <div class="module p-4 pb-2">
                   <div class="cont-img-prod">
-                    <img src="./images/p1.png" class="img-prod w-100" style="border-radius: 20px;">
+                    <img src="./images/v1-4.jpg" class="img-prod w-100" style="border-radius: 20px;">
                   </div>
                   <h4 class="display-5 mt-2">Women's Superstar </h4>
                   <h4 class="display-4 mt-1">$U 4.200</h4>
@@ -128,7 +128,7 @@
               <div class="col-6 col-sm-6 col-lg-3 mb-3 ps-2">
                 <div class="module p-4 pb-2">
                   <div class="cont-img-prod">
-                    <img src="./images/p5.png" class="img-prod w-100" style="border-radius: 20px;">
+                    <img src="./images/v1-1.jpg" class="img-prod w-100" style="border-radius: 20px;">
                   </div>
                   <h4 class="display-5 mt-2">Women's Superstar </h4>
                   <h4 class="display-4 mt-1">$U 4.200</h4>
@@ -154,16 +154,20 @@
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                           </div>
                           <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img src="./images/p1.png" class="d-block w-100" alt="p1.jpg">
+                              <img src="./images/v1-1.jpg" class="d-block w-100" alt="p1.jpg">
                             </div>
                             <div class="carousel-item">
-                              <img src="./images/p2.jpg" class="d-block w-100" alt="p1.jpg">
+                              <img src="./images/v1-3.jpg" class="d-block w-100" alt="p1.jpg">
                             </div>
                             <div class="carousel-item">
-                              <img src="./images/p3.png" class="d-block w-100" alt="p1.jpg">
+                              <img src="./images/v1-2.jpg" class="d-block w-100" alt="p1.jpg">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/v1-4.jpg" class="d-block w-100" alt="p1.jpg">
                             </div>
                           </div>
                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -209,33 +213,4 @@
     </section>
 
 </div>
-@endsection
-
-@section('script')
-<script>
-    /*==================================================================
-    [ Cart ]*/
-    $(document).ready(function () {
-      $('.js-show-cart').on('click', function () {
-          console.log('open cart')
-          $('.js-panel-cart').addClass('show-header-cart');
-      });
-
-      $('.js-hide-cart').on('click', function () {
-          console.log('close cart')
-          $('.js-panel-cart').removeClass('show-header-cart');
-      });
-
-      /*==================================================================
-      [ Cart ]*/
-      $('.js-show-sidebar').on('click', function () {
-          console.log('open cart')
-          $('.js-sidebar').addClass('show-sidebar');
-      });
-
-      $('.js-hide-sidebar').on('click', function () {
-          $('.js-sidebar').removeClass('show-sidebar');
-      });
-    });
-</script>
 @endsection

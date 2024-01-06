@@ -99,34 +99,5 @@
   </section>
 </div>
 @endsection
-
-@section('script')
-<script>
-    /*==================================================================
-    [ Cart ]*/
-    $(document).ready(function () {
-      $('.js-show-cart').on('click', function () {
-          console.log('open cart')
-          $('.js-panel-cart').addClass('show-header-cart');
-      });
-
-      $('.js-hide-cart').on('click', function () {
-          console.log('close cart')
-          $('.js-panel-cart').removeClass('show-header-cart');
-      });
-
-      /*==================================================================
-      [ Cart ]*/
-      $('.js-show-sidebar').on('click', function () {
-          console.log('open cart')
-          $('.js-sidebar').addClass('show-sidebar');
-      });
-
-      $('.js-hide-sidebar').on('click', function () {
-          $('.js-sidebar').removeClass('show-sidebar');
-      });
-    });
-</script>
-@endsection
 </body>
 </html>

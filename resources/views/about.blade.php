@@ -8,10 +8,17 @@
       <div class="container p-0">
           <div class="row">
 
-                <div class="col-lg-8 mt-5">
+                <div class="col-lg-8">
                   <div class="module">
-                    <h2>About me</h2><p>Lorem
-                      ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    <h2>Sobre Nosotros</h2>
+                    <div class="company-info pb-2">
+                        <img src="/images/logo.png" class="company-logo">
+                        <div class="company-details">
+                            <div class="company-name">Candle Store</div>
+                            <!-- <div class="company-location">Mountain View, CA</div> -->
+                        </div>
+                    </div>
+                    <p>Loremipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
                      commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in 
@@ -20,106 +27,67 @@
                      omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                       totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
                       architecto beatae vitae dicta sunt explicabo.</p>
+                      <p>info@candlestore.com / +34 700 93 93 80</p>
                   </div>
                   <!-- Buttons  -->
                   <div class="my-5 mx-4 d-flex">
                     <button class="btn btn-primary rounded-pill btn-blue">
-                        <div class="dashly-custom-icon color-accent-1 mg-right-8px"></div> Ubicación
+                      <i class="fab fa-instagram"></i> Instagram
                     </button>
                     <button class="btn btn-primary rounded-pill btn-white">
-                      <div class="line-rounded-icon"></div> Compartir
+                      <i class="fab fa-whatsapp"></i> Compartir
                     </button>
                   </div>                
                   <!-- Buttons  -->
                 </div>
                 <!-- Feature 2 -->
-                <div class="col-lg-4 mt-5">
+                <div class="col-12 col-md-4 mt-md-0 ">
                   <div class="module skills">
-                    <h2 class="line-height-0 display-4">Skills</h2>
+                    <h2 class="line-height-0 display-4">Nuestro proceso</h2>
                     <div class="divider top-28px---bottom-40px">
                     </div>
-                      <div class="flex gap-12px children-wrap">
-                        <div class="badge-secondary gray large">
-                          <div class="text-200 medium">Webflow Development</div>
+                    <!-- carrousel -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="/images/about1.jpg" class="d-block w-100" alt="...">
                         </div>
-                        <div class="badge-secondary gray large">
-                          <div class="text-200 medium">asistencia</div>
+                        <div class="carousel-item">
+                          <img src="/images/about2.jpg" class="d-block w-100" alt="...">
                         </div>
-                        <div class="badge-secondary gray large">
-                          <div class="text-200 medium">Addicciones</div>
-                        </div>
-                        <div class="badge-secondary gray large">
-                          <div class="text-200 medium">ayuda terapeutica</div>
-                        </div>
-                        <div class="badge-secondary gray large">
-                          <div class="text-200 medium">problemas de parja</div>
-                        </div>
-                        <div class="badge-secondary gray large">
-                          <div class="text-200 medium">hacerloam coemanebta</div>
-                        </div>
-                        <div class="badge-secondary gray large">
-                          <div class="text-200 medium">warelo dnerote</div>
-                        </div>
-                        <div class="badge-secondary gray large">
-                          <div class="text-200 medium">pelodme merte</div>
-                        </div>
-                        <div class="badge-secondary gray large">
-                          <div class="text-200 medium">kelodme</div>
+                        <div class="carousel-item">
+                          <img src="/images/about3.jpg" class="d-block w-100" alt="...">
                         </div>
                       </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
                     </div>
-                </div>
-                <!-- Feature 2 -->
-                <div class="col-lg-8">
-                  <div class="module skills">
-                    <h2 class="line-height-0 display-4">Experience</h2>
-                    <div class="divider top-28px---bottom-40px"></div>
-                     <!-- expereice 1-->
-                      <div class="experience-item">
-                        <div class="company-info">
-                            <img src="t2_files/6307bafa51abd9bde268699e_google-company-module-square-icon-d.svg" class="company-logo">
-                            <div class="company-details">
-                                <div class="company-name">Google</div>
-                                <div class="company-location">Mountain View, CA</div>
-                            </div>
-                        </div>
-                        <div class="employment-period">Mar 2022 - Present</div>
-                      </div>
-                      <p class="profile-experience-text">
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                      </p>                
-                      <!-- expereice 2-->
-                      <div class="divider top-28px---bottom-40px"></div>
-                        <div class="experience-item">
-                          <div class="company-info">
-                              <img src="t2_files/6307bafa51abd9bde268699e_google-company-module-square-icon-d.svg" class="company-logo">
-                              <div class="company-details">
-                                  <div class="company-name">Google</div>
-                                  <div class="company-location">Mountain View, CA</div>
-                              </div>
-                          </div>
-                          <div class="employment-period">Mar 2022 - Present</div>
-                        </div>
-                        <p class="profile-experience-text">
-                          Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        </p>                
-                      </div>
-                      <!-- -->
+                    <!-- / -->
                     </div>
-                  </div>
                 </div>
                 <!-- Mapa -->
-                <div class="col-lg-8">
+                <!-- <div class="col-lg-8 mt-4">
                   <div class="module skills">
                     <h2 class="line-height-0 display-4">Ubicación</h2>
                     <div class="divider top-28px---bottom-40px"></div>
                       <div class="experience-item">
                         
-                        oooooooooooooo
+                        ooooooocooooooo
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
             
           </div>
       </div>

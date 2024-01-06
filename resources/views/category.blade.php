@@ -10,13 +10,13 @@
           <div class="row">
             <div class="col-lg-12 mb-4">
               <div class="module skills p-4">
-                <button class="accordion-button border-r-14" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button collapsed border-r-14" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" role="button">
                     <h2 class="line-height-0 display-4 mt-3">
                     Categoría: Mujer
                     </h2>
                 </button>
                 <!-- <div class="divider m-0"></div> -->
-                <div id="collapseOne" class="accordion-collapse collapse show border-0" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div id="collapseOne" class="accordion-collapse collapse border-0" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <div class="flex gap-12px children-wrap mt-3">
                       <div class="badge-secondary gray large">
@@ -192,33 +192,4 @@
     </section>
 
 </div>
-@endsection
-
-@section('script')
-<script>
-    /*==================================================================
-    [ Cart ]*/
-    $(document).ready(function () {
-      $('.js-show-cart').on('click', function () {
-          console.log('open cart')
-          $('.js-panel-cart').addClass('show-header-cart');
-      });
-
-      $('.js-hide-cart').on('click', function () {
-          console.log('close cart')
-          $('.js-panel-cart').removeClass('show-header-cart');
-      });
-
-      /*==================================================================
-      [ Cart ]*/
-      $('.js-show-sidebar').on('click', function () {
-          console.log('open cart')
-          $('.js-sidebar').addClass('show-sidebar');
-      });
-
-      $('.js-hide-sidebar').on('click', function () {
-          $('.js-sidebar').removeClass('show-sidebar');
-      });
-    });
-</script>
 @endsection

@@ -3,7 +3,11 @@
 body, div, p, span, strong {
   font-family: Inter, sans-serif;
 }
-
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: #f7f9fc !important;
   color:#6f7182 !important;
@@ -11,6 +15,15 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.857em;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+  background-color: #0b0e2c;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
 }
 .grey{
   color: #6f7182 !important;
@@ -22,6 +35,13 @@ margin-bottom: 16px;
 font-size: 30px;
 font-weight: 600;
 line-height: 1.273em;
+}
+.dropdown-menu.show {
+  border-radius: 12px !important;
+}
+.dropdown-menu.show:focus {
+  border: 0px !important;
+  box-shadow: none !important;
 }
 .wight-400{
 font-weight: 400 !important;
@@ -98,7 +118,7 @@ line-height: 1.455em;
   padding: 36px;
   position: relative;
   overflow: hidden;
-  background-image: url('../images/dd2.png');
+  background-image: url('../images/dd3.png');
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -125,6 +145,12 @@ line-height: 1.455em;
 .profile-image {
   width: 100px;
   height: 100px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.nav-image {
+  width: 40px;
+  height: 40px;
   border: 5px solid white;
   border-radius: 50%;
 }
@@ -189,7 +215,7 @@ line-height: 1.455em;
 .profile-info h2,
 .profile-info p {
   
-  color: white;
+  color: #6f7182;
 }
 .module{
 grid-column-gap: 24px;

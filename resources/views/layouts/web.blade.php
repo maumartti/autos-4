@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Your Landing Page</title>
+    <title>Caldle Store</title>
     <!-- Enlace a Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- Bootstrap CSS -->
@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- Your custom styles -->
+    @yield('head')
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -23,7 +24,9 @@
         <div class="container py-2">
             <!-- Contenido que permanece visible en pantallas móviles -->
             <div id="navbarTitle" class="visible-on-mobile d-flex justify-content-between align-items-center">
-            <a class="navbar-brand" href="#" >Shoes Tienda</a>
+            <a class="navbar-brand" href="#" >
+                <img class="nav-image" src="/images/logo2.png"> Candle Store
+            </a>
             <div class="icon-header-item" data-notify="0"><!--CART 1 -->
                 <i class="nav-link d-inline pe-0 fas fa-shopping-cart d-lg-none js-show-cart" style="font-size:20px;position:relative;top:3px;"></i> <!-- A la derecha en pantallas móviles -->
             </div>
@@ -38,8 +41,15 @@
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/">Homee</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="/categoria/mujer">Categorías</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categorías
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-light border-0" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="/destacados">Destacados</a>
@@ -145,11 +155,43 @@
         </div>
     </div>
 
+    <!-- Footer -->
+    <footer class="text-light text-center py-3">
+        <p class="mb-0">Creado con <a href="https://tiendyshop.com" class="text-light" target="_blank">tiendyshop.com</a></p>
+    </footer>
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+    /*==================================================================
+    [ Cart ]*/
+    $(document).ready(function () {
+      $('.js-show-cart').on('click', function () {
+          console.log('open cart')
+          $('.js-panel-cart').addClass('show-header-cart');
+      });
+
+      $('.js-hide-cart').on('click', function () {
+          console.log('close cart')
+          $('.js-panel-cart').removeClass('show-header-cart');
+      });
+
+      /*==================================================================
+      [ Cart ]*/
+      $('.js-show-sidebar').on('click', function () {
+          console.log('open cart')
+          $('.js-sidebar').addClass('show-sidebar');
+      });
+
+      $('.js-hide-sidebar').on('click', function () {
+          $('.js-sidebar').removeClass('show-sidebar');
+      });
+    });
+    </script>
     <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.1/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     @yield('script')
 </body>
 </html>
