@@ -25,7 +25,8 @@
             <!-- Contenido que permanece visible en pantallas móviles -->
             <div id="navbarTitle" class="visible-on-mobile d-flex justify-content-between align-items-center">
             <a class="navbar-brand" href="#" >
-                <img class="nav-image" src="/images/logo2.png"> Candle Store
+                <img class="nav-image" src="/images/logo2.png">
+                <span style="position: relative;top: 3px;">Candle Store</span>
             </a>
             <div class="icon-header-item" data-notify="0"><!--CART 1 -->
                 <i class="nav-link d-inline pe-0 fas fa-shopping-cart d-lg-none js-show-cart" style="font-size:20px;position:relative;top:3px;"></i> <!-- A la derecha en pantallas móviles -->
@@ -99,7 +100,7 @@
                 <ul class="header-cart-wrapitem w-full list-unstyled">
                     <li class="header-cart-item flex-w flex-t d-flex mb-3">
                         <div class="header-cart-item-img">
-                            <img src="/images/p1.png" alt="IMG">
+                            <img src="/images/v1-3.jpg" alt="IMG">
                         </div>
                         <div class="header-cart-item-txt pt-2 ms-0">
                             <div>
@@ -114,7 +115,7 @@
                     </li>
                     <li class="header-cart-item flex-w flex-t d-flex mb-3">
                         <div class="header-cart-item-img">
-                            <img src="/images/p5.png" alt="IMG">
+                            <img src="/images/v1-1.jpg" alt="IMG">
                         </div>
                         <div class="header-cart-item-txt pt-2 ms-0">
                             <div>
@@ -129,7 +130,7 @@
                     </li>
                     <li class="header-cart-item flex-w flex-t d-flex mb-3">
                         <div class="header-cart-item-img">
-                            <img src="/images/p6.png" alt="IMG">
+                            <img src="/images/v1-2.jpg" alt="IMG">
                         </div>
                         <div class="header-cart-item-txt pt-2 ms-0">
                             <div>
