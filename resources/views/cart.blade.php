@@ -1,7 +1,6 @@
 @extends('layouts.web')
 @section('content')
 <div class="container mt-2">
-
     <!-- Features Section -->
     <section id="features" class="py-0">
       <div class="container p-0">
@@ -66,13 +65,11 @@
                     <h2 class="line-height-0 display-4">Ubicación</h2>
                     <div class="divider top-28px---bottom-40px"></div>
                       <div class="experience-item">
-                        
                         ooooooocooooooo
                       </div>
                     </div>
                   </div>
                 </div> -->
-            
           </div>
       </div>
     </section>
