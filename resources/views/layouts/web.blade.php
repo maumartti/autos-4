@@ -176,7 +176,6 @@
           console.log('close cart')
           $('.js-panel-cart').removeClass('show-header-cart');
       });
-
       /*==================================================================
       [ Cart ]*/
       $('.js-show-sidebar').on('click', function () {
