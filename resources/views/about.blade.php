@@ -1,8 +1,6 @@
 @extends('layouts.web')
 @section('content')
 <div class="container mt-2">
-  
-
     <!-- Features Section -->
     <section id="features" class="py-0">
       <div class="container p-0">
