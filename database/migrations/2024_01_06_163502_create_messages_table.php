@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('messages', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_sent_id');
+            $table->unsignedBigInteger('user_received_id');
+            $table->string('message');
             $table->timestamps();
         });
     }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Caldle Store</title>
+    <title>Solo Autos Uruguay</title>
     <!-- Enlace a Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- Bootstrap CSS -->
@@ -11,6 +11,17 @@
     <link href="{{ asset('css/tienda.css') }}" rel="stylesheet">
     <!-- <link href="{{ asset('css/util.css') }}" rel="stylesheet"> -->
     <!-- <link href="{{ asset('css/main.css') }}" rel="stylesheet"> -->
+    
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
     <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +36,7 @@
             <!-- Contenido que permanece visible en pantallas móviles -->
             <div id="navbarTitle" class="visible-on-mobile d-flex justify-content-between align-items-center">
             <a class="navbar-brand" href="#" >
-                <img class="nav-image" src="/images/logo6.png">
+                <img class="nav-image" src="/images/logo7.png" alt="Solo Autos - logo">
                 <!-- <span style="position: relative;top: 3px;">Solo Autos</span> -->
             </a>
             <div class="icon-header-item" data-notify="0"><!--CART 1 -->
