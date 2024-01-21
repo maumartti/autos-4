@@ -20,13 +20,13 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-0" style="background:#ffe600 !important;">
         <div class="container py-2">
             <!-- Contenido que permanece visible en pantallas móviles -->
             <div id="navbarTitle" class="visible-on-mobile d-flex justify-content-between align-items-center">
             <a class="navbar-brand" href="#" >
-                <img class="nav-image" src="/images/logo2.png">
-                <span style="position: relative;top: 3px;">Candle Store</span>
+                <img class="nav-image" src="/images/logo6.png">
+                <!-- <span style="position: relative;top: 3px;">Solo Autos</span> -->
             </a>
             <div class="icon-header-item" data-notify="0"><!--CART 1 -->
                 <i class="nav-link d-inline pe-0 fas fa-shopping-cart d-lg-none js-show-cart" style="font-size:20px;position:relative;top:3px;"></i> <!-- A la derecha en pantallas móviles -->
@@ -42,9 +42,12 @@
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/">Homee</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/destacados">Destacados</a>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Categorías
+                        Marcas
                     </a>
                     <ul class="dropdown-menu dropdown-menu-light border-0" aria-labelledby="navbarDarkDropdownMenuLink">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -53,13 +56,13 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="/destacados">Destacados</a>
-                </li>
-                <li class="nav-item">
                 <a class="nav-link" href="/nosotros">Nosotros</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="/contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/blog">Blog</a>
                 </li>
                 <li class="nav-item order-md-last"> <!-- Utilizamos la clase order-md-last para mover este elemento al final en pantallas medianas y grandes -->
                 <a class="nav-link d-lg-none" href="{{ route('login') }}"" tabindex="-1" aria-disabled="true">Entrar <i class="fas fa-sign-in-alt"></i></a>
